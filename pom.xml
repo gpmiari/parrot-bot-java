@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>chatbot.santander</groupId>
+	<artifactId>testbot</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>testbot</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<!-- <repositories> -->
+	<!-- <repository> -->
+	<!-- <id>lime-java-core</id> -->
+	<!-- <url>https://bintray.com/takenet/maven/lime-java-core</url> -->
+	<!-- </repository> -->
+	<!-- <repository> -->
+	<!-- <id>lime-java-messaging</id> -->
+	<!-- <url>https://bintray.com/takenet/maven/lime-java-messaging</url> -->
+	<!-- </repository> -->
+	<!-- </repositories> -->
+
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.5.9.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<version>1.5.9.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>javax.ws.rs-api</artifactId>
+			<version>2.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>2.25.1</version>
+		</dependency>
+
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.limeprotocol</groupId> -->
+		<!-- <artifactId>lime-java-core</artifactId> -->
+		<!-- <version>1.1.37</version> -->
+		<!-- </dependency> -->
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.limeprotocol</groupId> -->
+		<!-- <artifactId>lime-java-messaging</artifactId> -->
+		<!-- <version>1.1.37</version> -->
+		<!-- </dependency> -->
+
+	</dependencies>
+</project>
